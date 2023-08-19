@@ -14,18 +14,26 @@
 <body>
     <h1>Calculadora de IMC</h1>
 	<div class="verdade">
-		<label for="enderecoIP">Preencha os dados:</label><br/>
+		<h2>Preencha os dados:</label></h2>
         <img src="https://i.pinimg.com/236x/4c/ef/62/4cef6292f44bbd96412d981df32e4ace.jpg"/><br/>
-		<input type="text" id="enderecoIP" placeholder="Digite o endereço IP" /><br/>
-		<button onclick="calcularEnderecoIP()">Calcular</button><br/>
+
+		<form method="post">
+      
+            <p><input type="text" id="txtNome" placeholder="Nome"/></p>
+            <p><input type="text" id="txtIdade" placeholder="Idade"/></p>
+            <p><input type="text" id="txtSexo" placeholder="Sexo"/></p>
+            <p><input type="text" id="txtPeso" placeholder="Peso"/></p>
+            <p><input type="text" id="txtAltura" placeholder="Altura"/></p>
+      
+          </form>
+
+		<button onclick="calcular()">Calcular</button><br/>
 	</div>
 
 	<div class="concordo">
 		<h2>Resultado:</h2>
-		<p>Classe: <span id="classe"></span></p>
-		<p>Sub-Máscara: <span id="mascara"></span></p>
-		<p>Endereço de Rede: <span id="enderecoRede"></span></p>
-		<p>Endereço de Broadcast: <span id="broadcast"></span></p>
+		<h5 id="resultado"></h5>
+        <h5 id="conclusao"></h5>
 	</div>
 
 	<footer>
