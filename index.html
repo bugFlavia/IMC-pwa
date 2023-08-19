@@ -12,22 +12,30 @@
     <meta name="theme-color" content="white" />
 </head>
 <body>
-    <div class="cartao">
+    <h1>Calculadora de IMC</h1>
+	<div class="verdade">
+		<label for="enderecoIP">Preencha os dados:</label><br/>
+        <img src="https://i.pinimg.com/236x/4c/ef/62/4cef6292f44bbd96412d981df32e4ace.jpg"/><br/>
+		<input type="text" id="enderecoIP" placeholder="Digite o endereço IP" /><br/>
+		<button onclick="calcularEnderecoIP()">Calcular</button><br/>
+	</div>
 
-        <h2 style="text-align: center;">Calcule seu IMC</h2>
-      
-        <form method="post">
-  
-        <p><label>Digite seu peso:</label><input type="text" id="txtPeso"/></p>
-        <p><label>Digite sua altura:</label><input type="text" id="txtAltura"/></p>
-  
-      </form>
-  
-      <button type="button" onclick="calcular()">Enviar</button>
-  
-      <h5 id="resultado"></h5>
-      <h5 id="conclusao"></h5>
-      </div>
+	<div class="concordo">
+		<h2>Resultado:</h2>
+		<p>Classe: <span id="classe"></span></p>
+		<p>Sub-Máscara: <span id="mascara"></span></p>
+		<p>Endereço de Rede: <span id="enderecoRede"></span></p>
+		<p>Endereço de Broadcast: <span id="broadcast"></span></p>
+	</div>
+
+	<footer>
+		<div>
+			<h3>Criado por:</h3>
+			 <h4>Flavia Nunes Barboza de Morais;</h4>
+			 <h4>Maria Fernada de Souza.</h4> 
+		 </div>
+	
+		</footer>
     <script src='js/script.js'></script>
 </body>
 </html>
