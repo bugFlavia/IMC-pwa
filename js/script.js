@@ -10,7 +10,7 @@ function calcular(){
     var altura = parseFloat(document.getElementById("txtAltura").value,10);
 
     var conta = peso/(altura*altura)
-    document.getElementById("resultado").innerHTML = "Seu IMC é:"+ conta.toFixed(2);
+    document.getElementById("resultado").innerHTML = "Seu IMC é: "+ conta.toFixed(2);
 
     if (conta<18.5){
         document.getElementById("conclusao").innerHTML = "Abaixo do peso";
