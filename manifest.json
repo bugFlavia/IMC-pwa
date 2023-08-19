@@ -3,15 +3,17 @@
     "short_name":"Calculadora renatao",
     "icons": [
         {
-            "src": "imagens/taylor-swift-blank-space_7910426-2587_1200x630.webp",
+            "src": "/imagens/256.256.jpg",
             "sizes": "256x256",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "maskable any"
         },
 
         {
-            "src": "imagens/blank-space.jpg",
+            "src": "/imagens/512.512.jpg",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "maskable any"
         }
     ],
     "lang":"pt-BR",

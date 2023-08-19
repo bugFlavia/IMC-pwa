@@ -12,7 +12,22 @@
     <meta name="theme-color" content="white" />
 </head>
 <body>
-    <p>It's me, hi! I'm the vitao it's me</p>
-    <script src='main.js'></script>
+    <div class="cartao">
+
+        <h2 style="text-align: center;">Calcule seu IMC</h2>
+      
+        <form method="post">
+  
+        <p><label>Digite seu peso:</label><input type="text" id="txtPeso"/></p>
+        <p><label>Digite sua altura:</label><input type="text" id="txtAltura"/></p>
+  
+      </form>
+  
+      <button type="button" onclick="calcular()">Enviar</button>
+  
+      <h5 id="resultado"></h5>
+      <h5 id="conclusao"></h5>
+      </div>
+    <script src='js/script.js'></script>
 </body>
 </html>
