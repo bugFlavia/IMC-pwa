@@ -1,0 +1,15 @@
+{
+  "name": "renataoimc",
+  "version": "1.0.0",
+  "description": "calvo",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve ."
+  },
+  "author": "it's me, hi!",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}

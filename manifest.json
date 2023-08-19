@@ -1,0 +1,22 @@
+{
+    "name": "renataoimc",
+    "short_name":"Calculadora renatao",
+    "icons": [
+        {
+            "src": "imagens/taylor-swift-blank-space_7910426-2587_1200x630.webp",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+
+        {
+            "src": "imagens/blank-space.jpg",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "lang":"pt-BR",
+     "start_url": "/index.html",
+     "display": "standalone",
+     "background_color": "white",
+     "theme_color": "white"
+}
